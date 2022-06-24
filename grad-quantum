@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Melody Molander's Webpage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="gradnew.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<body>
+
+<div class="header">
+  <h1>Melody Molander</h1>
+  <p>UC Santa Barbara<br />
+  <br /><br />
+  melodymolander(at)math(dot)ucsb(dot)edu</p>
+</div>
+
+<div class="topnav" id="myTopnav">
+<a href="index.html">Home</a>
+<a href="teaching.html">Teaching</a>
+<a href="research.html">Research</a>
+<a href="quantum.html">Quantum Algebra & Topology Seminar</a>
+<a href="talks.html">Talks</a>
+<a href="grad-quantum.html">Graduate Quantum Algebra & Topology Seminar</a>
+<a href="outreach.html">Outreach</a>
+<a href="other.html">Other</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+</a>
+</div>
+
+<!--<div class="row">-->  <!--masthead-->
+
+<div class="main">
+	<h2>Graduate Quantum Algebra and Topology Seminar at UC Santa Barbara</h2>
+  <h3> Organizers: Aaron Bagheri and Melody Molander </h3>
+  <p> The UCSB Graduate Quantum Algebra and Topology Seminar will usually meet on Thursdays at 2pm Pacific Time. </p>
+  <p> In Winter 2022, during the graduate seminar we will be reading "The 3-manifold invariants of Witten and Reshetikhin-Turaev for sl(2,C)" by Kirby and Melvin.</p>
+  <p> While campus is online, talks will be given virtually. If you are interested in attending virtually, please email me and I will send you the Zoom link. </p>
+<h3>Winter 2022 Schedule:</h3>
+<ul>
+<li> 01/13: 0. Introduction and 1. The invariants of Reshetikhin and Turaev </li>
+<li> 01/20: 2.1 The Algebra A </li>
+<li> 01/27: 2.2 Representations of A </li>
+<li> 02/03: TBA </li>
+<li> 02/10: TBA </li>
+<li> 02/17: TBA </li>
+<li> 02/24: TBA </li>
+<li> 03/03: TBA </li>
+<li> 03/10: TBA </li>
+</ul>
+<p> </p>
+<p> </p>
+  <h3>Fall 2021 Schedule:</h3>
+  <ul>
+  <li> 10/06: Ch 1.1 <em>Ribbon categories</em>
+  <li> 10/13: Ch 1.2 <em> Operator invariants of ribbon graphs </em>
+  <li> 10/20: <em> Ch 2.1 Modular tensor categories and Ch 2.2 Invariants of 3-manifolds </em>
+  <li> 10/27: <em> Ch 2.3.1 Kirby calculus and Ch 2.4 Computations in semisimple categories </em>
+  <li> 11/03: <em> Ch 2.5  Hermitian and unitary categories and Ch 3.1 Axiomatic definition of TQFT's</em>
+  <li> 11/10: <em> Ch 3.2 Fundamental properties and Ch 3.3 Isomorphisms of TQFTs </em>
+  <li> 11/17: <em> <b>The \(SL_2\) Tilting Category in Mixed Characteristic</b>, Jieru Zhu (Okinawa Institute of Science and Technology)</em>
+  <li> 11/24: <em> No seminar </em>
+  <li> 12/01: <em> <b>(Higher) Category-valued Manifold Invariants</b>, Jin-Cheng Guu (Stony Brook University) </em>
+  </ul>
+</div> <!--left container-->
+ <!--right container-->
+
+<!--<div id="footer">
+	Please enjoy your only life.
+</div> footer -->
+
+<!--/div--> <!--wrapper -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+
+</html>
