@@ -165,15 +165,19 @@ body {
   }
 }
 
-/*add star after invited talks numbers*/
+/*add star before invited talks numbers*/
 li {
   position: relative;
 }
 
-li.invited:after {
+li.invited:before {
   content: "*";
   position: absolute;
-  right: -25px;
+  left: -25px;
+}
+
+li.invited:nth-of-type(n+10):before {
+  left: -33px;
 }
 /*li.hard:nth-of-type(n+10):after {
  right: -33px;
