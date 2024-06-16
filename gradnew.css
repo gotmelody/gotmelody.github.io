@@ -177,7 +177,7 @@ li.invited:before {
 }
 
 li.invited:nth-of-type(n+9):before {
-  left: -33px;
+  left: -25px;
 }
 /*li.hard:nth-of-type(n+10):after {
  right: -33px;
