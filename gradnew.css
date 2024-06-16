@@ -166,6 +166,10 @@ body {
 }
 
 /*add star after invited talks numbers*/
+li {
+  position: relative;
+}
+
 li.invited:after {
   content: "*";
   position: absolute;
