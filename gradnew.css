@@ -175,9 +175,9 @@ li.invited:after {
   position: absolute;
   right: -25px;
 }
-li.hard:nth-of-type(n+10):after {
+/*li.hard:nth-of-type(n+10):after {
  right: -33px;
-}
+}*/
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 /*@media screen and (max-width: 400px) {
   .navbar a {
