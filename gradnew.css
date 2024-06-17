@@ -193,7 +193,7 @@ li.invited:nth-of-type(n+11):before {
 }
 
 .subnav {
-  float: left;
+  float: none;
   overflow: hidden;
 }
 
@@ -218,7 +218,7 @@ li.invited:nth-of-type(n+11):before {
 }
 
 .subnav-content a {
-  float: left;
+  float: none;
   color: white;
   text-decoration: none;
 }
