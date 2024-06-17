@@ -35,6 +35,8 @@
   box-sizing: border-box;
 }
 
+
+
 /* Style the body */
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -160,7 +162,12 @@ body {
     float: right;
     display: block;
   }
+  .subnavbtn a.icon {
+    float: right;
+    display: block;
+  }
 }
+
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
@@ -171,6 +178,18 @@ body {
     top: 0;
   }
   .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .subnav .subnavbtn.responsive {position: relative;}
+  .subnav .subnavbtn.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+  }
+  .subnav .subnavbtn.responsive a {
     float: none;
     display: block;
     text-align: left;
@@ -193,12 +212,12 @@ li.invited:nth-of-type(n+11):before {
 }
 
 .subnav {
-  float: none;
+  float: left;
   overflow: hidden;
 }
 
 .subnav .subnavbtn {
-  font-size: 16px;
+  font-size: 17px;
   border: none;
   outline: none;
   color: white;
@@ -208,7 +227,10 @@ li.invited:nth-of-type(n+11):before {
   margin: 0;
 }
 
-/* Style the subnav content - positioned absolute */
+.subnavbtn a:hover {
+  background-color: #ffee66;
+}
+
 .subnav-content {
   display: none;
   position: relative;
@@ -220,12 +242,12 @@ li.invited:nth-of-type(n+11):before {
 
 /* Style the subnav links */
 .subnav-content a {
-  float: none;
+  float: left;
   color: white;
   text-decoration: none;
 }
 
-/* Add a grey background color on hover */
+/* Add a yellow background color on hover */
 .subnav-content a:hover {
   background-color: #ffee66;
   color: black;
@@ -234,6 +256,11 @@ li.invited:nth-of-type(n+11):before {
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
   display: block;
+}
+
+/*When you move the mouse over the subnav button, turn it yellow*/
+.subnav:hover .subnavbtn {
+  background-color: #ffee66;
 }
 /*li.hard:nth-of-type(n+10):after {
  right: -33px;
