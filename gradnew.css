@@ -223,6 +223,13 @@ li.invited:nth-of-type(n+11):before {
   text-decoration: none;
 }
 
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #ffee66;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
   display: block;
 }
