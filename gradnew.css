@@ -212,7 +212,7 @@ li.invited:nth-of-type(n+11):before {
   display: none;
   position: absolute;
   left: 0;
-  background-color: 05347a;
+  background-color: #05347a;
   width: 100%;
   z-index: 1;
 }
