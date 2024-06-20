@@ -10,6 +10,25 @@
 
   gtag('config', 'G-CSGXJM8JV4');
 </script>
+<script>
+function toggleTopnav() {
+  var topnav = document.getElementById("myTopnav");
+  if (topnav.className === "topnav") {
+    topnav.className += " responsive";
+  } else {
+    topnav.className = "topnav";
+  }
+}
+
+function toggleSubnav() {
+  var subnavContent = document.getElementById("subnavContent");
+  if (subnavContent.style.display === "block") {
+    subnavContent.style.display = "none";
+  } else {
+    subnavContent.style.display = "block";
+  }
+}
+</script>
 <title>Melody Molander's Webpage</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,24 +55,21 @@
 <a href="research.html">Research</a>
 <a href="talks.html">Talks</a>
 <a href="teaching.html">Teaching</a>
-<div class="subnav">
-  <button class="subnavbtn">Seminars<i class="fa fa-caret-down"></i></button>
-  <div class="subnav-content">
-  <a href="quantum.html">Quantum Algebra & Topology Seminar</a>
+<div class="subnav" id="mySubnav">
+    <button class="subnavbtn" onclick="toggleSubnav()">Seminars<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content" id="subnavContent">
+      <a href="quantum.html">Quantum Algebra & Topology Seminar</a>
 
 <!--<a href="grad-quantum.html">Graduate Quantum Algebra & Topology Seminar</a>-->
 <!--<a href="outreach.html">Outreach</a>-->
+    </div>
 </div>
-</div>
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
+<a href="javascript:void(0);" class="icon" onclick="toggleTopnav()">
+   <i class="fa fa-bars"></i>
 </a>
 
 
 </div>
-</div>
-
-
 
 
 <div class="row">
