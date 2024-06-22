@@ -181,6 +181,9 @@ body {
   .topnav.responsive .subnavbtn:focus + .subnav-content {
     display: block;
   }
+  .topnav.responsive {
+    overflow: visible;
+  }
 }
 
 /* Add star before invited talks numbers */
