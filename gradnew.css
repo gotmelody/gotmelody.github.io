@@ -276,4 +276,7 @@ li.invited:nth-of-type(n+11):before {
     .rowa {
         display: none !important;
     }
+    .papers{
+      max-width: 75%;
+    }
 }
