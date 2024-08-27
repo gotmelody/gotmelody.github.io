@@ -270,3 +270,10 @@ li.invited:nth-of-type(n+11):before {
 .clearfix{
     clear:both
 }
+
+/*hides picture if screen is too small*/
+@media screen and (max-width: 1024px) {
+    .rowa {
+        display: none !important;
+    }
+}
