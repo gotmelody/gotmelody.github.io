@@ -272,7 +272,7 @@ li.invited:nth-of-type(n+11):before {
 }
 
 /*hides picture if screen is too small*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     .rowa {
         display: none !important;
     }
