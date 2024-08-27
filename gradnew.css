@@ -253,3 +253,20 @@ li.invited:nth-of-type(n+11):before {
 .subnav:hover .subnavbtn {
   background-color: #ffee66;
 }
+
+/*To add columns*/
+
+.rowa{
+    max-width:35%;
+    margin-right:2%;
+    float: left;
+    overflow: hidden; /*to deal with mobile mode text going over photo*/
+}
+
+.papers {
+    max-width:55%;
+    float: left;
+}
+.clearfix{
+    clear:both
+}
