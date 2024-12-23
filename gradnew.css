@@ -280,12 +280,7 @@ li.invited:nth-of-type(n+11):before {
         display: none !important;
     }
   }
-    .rowb{
-        max-width:40%;
-        margin-right:2%;
-        float: left;
-        overflow: hidden; /*to deal with mobile mode text going over photo*/
-    }
+
     @media screen and (min-width: 900px) {
         .rowb {
             display: none !important;
