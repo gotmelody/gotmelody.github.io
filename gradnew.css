@@ -267,7 +267,7 @@ li.invited:nth-of-type(n+11):before {
 }
 
 .papers {
-    max-width:62%;
+    max-width:100%;
     float: left;
 }
 .clearfix{
@@ -275,13 +275,13 @@ li.invited:nth-of-type(n+11):before {
 }
 
 /*hides picture if screen is too small*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     .rowa {
         display: none !important;
     }
   }
 
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 1200px) {
         .rowb {
             display: none !important;
         }}
