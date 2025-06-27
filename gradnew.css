@@ -1,6 +1,8 @@
+/*UCSB colors blue: 05347a replaced with ba0c2f for OSU yellow: FFEE66 replaced with a7b1b7 for OSU*/
+
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #05347a;
+  background-color: #ba0c2f;
   overflow: hidden;
 }
 
@@ -17,13 +19,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ffee66;
+  background-color: #a7b1b7;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #ffee66;
+  background-color: #a7b1b7;
   color: black;
 }
 
@@ -47,7 +49,7 @@ body {
 .header {
   padding: 20px;
   text-align: center;
-  background: #05347a;
+  background: #ba0c2f;
   color: white;
 }
 
@@ -65,13 +67,13 @@ body {
 }
 
 .header a:visited {
-  color: #ffee66;
+  color: #a7b1b7;
 }
 
 /* Sticky navbar */
 .navbar {
   overflow: hidden;
-  background-color: #05347a;
+  background-color: #ba0c2f;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -222,14 +224,14 @@ li.invited:nth-of-type(n+11):before {
 }
 
 .subnavbtn:hover {
-  background-color: #ffee66;
+  background-color: #a7b1b7;
 }
 
 .subnav-content {
   display: none;
   position: absolute;
   left: 0;
-  background-color: #05347a;
+  background-color: #ba0c2f;
   width: 100%;
   z-index: 1;
 }
@@ -243,7 +245,7 @@ li.invited:nth-of-type(n+11):before {
 
 /* Add a yellow background color on hover */
 .subnav-content a:hover {
-  background-color: #ffee66;
+  background-color: #a7b1b7;
   color: black;
 }
 
@@ -254,7 +256,7 @@ li.invited:nth-of-type(n+11):before {
 
 /* When you move the mouse over the subnav button, turn i5t yellow */
 .subnav:hover .subnavbtn {
-  background-color: #ffee66;
+  background-color: #a7b1b7;
 }
 
 /*To add columns*/
@@ -287,4 +289,32 @@ li.invited:nth-of-type(n+11):before {
         }}
     .papers{
       max-width: 100%;
+    }
+
+    summary.platform-summary {
+      cursor: pointer;
+      font-weight: bold;
+      padding: 8px;
+      background-color: #a7b1b7;
+      border-radius: 6px;
+      display: inline-block;
+      width: fit-content;
+      margin-top: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    summary.platform-summary:hover {
+      background-color: #a7b1b7;
+    }
+
+    details[open] summary.platform-summary::after {
+      content: "▲";
+      float: right;
+      margin-left: 10px;
+    }
+
+    summary.platform-summary::after {
+      content: "▼";
+      float: right;
+      margin-left: 10px;
     }
