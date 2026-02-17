@@ -319,7 +319,7 @@ li.invited:nth-of-type(n+11):before {
       margin-left: 10px;
     }
 
-    .pdf-container {
+   .pdf-container {
   width: 100%;
   height: 600px;
   overflow: auto;
