@@ -325,3 +325,36 @@ li.invited:nth-of-type(n+11):before {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
+
+ol summary {
+  display: block;
+  cursor: pointer;
+}
+
+ol summary::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 0.8em;
+}
+
+ol details[open] summary::before {
+  content: "▼";
+}
+
+/*Dealing with image sizes on Research page*/
+.paper-image {
+    display: block;
+    width: auto;
+    height: 200px;      /* desktop size */
+    max-width: 100%;    /* never wider than the screen */
+}
+
+/*Dealing with image sizes on Research page on mobile*/
+@media (max-width: 600px) {
+    .paper-image {
+        width: 100%;
+        height: auto;
+        max-width: 300px;   /* or 250px if you prefer */
+    }
+}
