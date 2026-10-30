@@ -358,3 +358,9 @@ ol details[open] summary::before {
         max-width: 300px;   /* or 250px if you prefer */
     }
 }
+
+  .topic-papers {
+    margin: 0.2em 0 0.8em 1.25em;
+    padding-left: 1em;
+    font-size: 0.9em;
+  }
